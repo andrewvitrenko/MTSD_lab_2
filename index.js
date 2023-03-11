@@ -64,6 +64,8 @@ class LinkedList {
   }
 }
 
+/* Example of usage
+
 const linkedList = new LinkedList();
 
 console.log(linkedList.length()); // output: 0
@@ -87,3 +89,7 @@ linkedList.deleteAll('3');
 console.log(linkedList.length()); // output: 6
 linkedList.clear();
 console.log(linkedList.length()); // output: 0
+
+*/
+
+module.exports = LinkedList;
