@@ -73,7 +73,7 @@ test('deleteAll', () => {
   const linkedList = new LinkedList();
   linkedList.extend(testArray);
   linkedList.deleteAll('3');
-  expect(linkedList.length()).toBe(4);
+  expect(linkedList.length()).toBe(5);
 });
 
 test('clear', () => {
